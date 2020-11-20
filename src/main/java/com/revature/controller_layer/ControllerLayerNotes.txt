@@ -1,0 +1,4 @@
+Controller layer acts as an interface between View and Model. 
+It receives requests from the View layer and processes them, including the necessary validations.
+
+The requests are further sent to Model layer for data processing, and once they are processed, the data is sent back to the Controller and then displayed on the View.

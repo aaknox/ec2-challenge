@@ -1,0 +1,26 @@
+/*
+ * MVC Design Pattern
+ * -----------------------
+ * MODEL			VIEW
+ * 		\			/
+ * 		 \		   /
+ * 		  CONTROLLER
+ * -----------------------
+ * 
+ * The Model Layer in the MVC design pattern contains business logic of the system
+ * and also represents the state of the application. 
+ * 
+ * It's independent of the presentation layer
+ *  - the controller fetches the data from the Model layer 
+ *    and sends it to the View layer.
+ *    
+ * For this example:
+ * - We'll create the Student and StudentService classes – which will act as our Model layer.
+ * - StudentServlet class will act as a Controller
+ * - The presentation layer is represented by the index.html and home.html
+ * 
+ * --PLEASE NOTE: I am omitting the DAO/Repository Layer from this example for simplicity,
+ * 		BUT they are still needed when working with relational databases 
+ * 		to persist/transfer data throughout the application.
+ * 
+ */
